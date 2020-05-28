@@ -1,0 +1,15 @@
+n_epochs = 10
+batch_size_train = 8
+batch_size_validation = 50
+batch_size_test = 50 # larger batch size for faster processing in parallel
+learning_rate = 0.0001
+momentum = 0.99
+log_interval = 10
+network='resnet18'
+optimizer='SGD'
+loss='cross_entropy'
+use_GPU=True
+train_proportion = 0.6
+validation_proportion = 0.2
+test_size = 1.0 - train_proportion - validation_proportion
+project_root = '/home/homberge/Projet/'
